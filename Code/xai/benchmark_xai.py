@@ -76,7 +76,7 @@ def main():
     p.add_argument("--eval-metrics", action="store_true",
                    help="Tinh Deletion/Insertion AUC va Faithfulness (cham hon)")
     p.add_argument("--faithfulness-threshold", type=float, default=0.15,
-                   help="Nguong drop confidence de dat faithfulness, vi du 0.15 = giam 15%")
+                   help="Nguong drop confidence de dat faithfulness, vi du 0.15 = giam 15%%")
     p.add_argument("--eval-iou", type=float, default=0.50,
                    help="Nguong IoU de tinh TP/FP/FN/TN")
     p.add_argument("--progress", action="store_true")
