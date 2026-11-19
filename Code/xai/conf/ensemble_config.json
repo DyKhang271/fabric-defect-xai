@@ -1,0 +1,98 @@
+{
+  "model_order": [
+    "kq9",
+    "kq11",
+    "kq2"
+  ],
+  "model_paths": {
+    "kq9": "model/ensemple/best9.pt",
+    "kq11": "model/ensemple/best11.pt",
+    "kq2": "model/ensemple/best2.pt"
+  },
+  "global_model_weights": {
+    "kq9": 1.0,
+    "kq11": 0.92,
+    "kq2": 0.82
+  },
+  "class_model_weights": {
+    "0": [
+      1.0,
+      0.9,
+      0.65
+    ],
+    "1": [
+      1.0,
+      0.95,
+      0.95
+    ],
+    "2": [
+      0.95,
+      1.0,
+      0.8
+    ],
+    "3": [
+      1.0,
+      0.95,
+      0.95
+    ],
+    "4": [
+      0.95,
+      0.95,
+      1.0
+    ],
+    "5": [
+      0.95,
+      0.9,
+      1.0
+    ],
+    "6": [
+      0.8,
+      1.0,
+      0.9
+    ],
+    "7": [
+      1.0,
+      0.85,
+      0.9
+    ],
+    "8": [
+      1.0,
+      0.9,
+      0.85
+    ]
+  },
+  "post_conf": {
+    "0": 0.3,
+    "1": 0.3,
+    "2": 0.18,
+    "3": 0.22,
+    "4": 0.22,
+    "5": 0.25,
+    "6": 0.34,
+    "7": 0.22,
+    "8": 0.23
+  },
+  "imgsz": 960,
+  "pred_conf": 0.05,
+  "pred_iou": 0.5,
+  "max_det": 1000,
+  "wbf_iou_thr": 0.55,
+  "final_nms_iou": 0.6,
+  "use_final_nms": true,
+  "class_names": {
+    "0": "CHONNGANG",
+    "1": "DINHDO",
+    "2": "DINHDO_2",
+    "3": "SOCMAU",
+    "4": "SOCXEP",
+    "5": "XEPGAY",
+    "6": "XEPLYCUONCAY",
+    "7": "XEPLYTOVN",
+    "8": "XEPLY_1"
+  },
+  "gradcam_layer_index": 9,
+  "gradcam_roi_scale": 0.7,
+  "gradcam_noise_threshold": 0.15,
+  "occlusion_roi_scale": 0.8,
+  "occlusion_noise_threshold": 0.08
+}

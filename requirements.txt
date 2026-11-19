@@ -1,0 +1,7 @@
+ensemble-boxes
+Flask
+numpy
+opencv-python
+PyYAML
+torch
+ultralytics

@@ -1,0 +1,14 @@
+train: images/train
+val: images/val
+test: images/test
+nc: 9
+names:
+  0: CHONNGANG
+  1: DINHDO
+  2: DINHDO_2
+  3: SOCMAU
+  4: SOCXEP
+  5: XEPGAY
+  6: XEPLYCUONCAY
+  7: XEPLYTOVN
+  8: XEPLY_1

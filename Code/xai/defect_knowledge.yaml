@@ -1,0 +1,213 @@
+# Tri thức lỗi vải cho phần hiển thị khách hàng.
+
+defects:
+  CHONNGANG:
+    ten_hien_thi: "Chọn ngang"
+    mo_ta_ngan: >
+      Vải xuất hiện một vệt hoặc dải ngang bất thường, chạy gần suốt chiều rộng
+      cuộn vải, nhìn như đường mờ hoặc dải sáng/tối theo chiều ngang.
+    dau_hieu_anh:
+      - "Có một dải hoặc vệt ngang chạy dài, thường kéo dài gần hết chiều rộng vải
+        (không phải một điểm nhỏ)."
+      - "Chiều cao vệt hẹp so với chiều dài; trông giống một đường kẻ ngang trên vải."
+      - "Màu sắc hoặc độ sáng của vệt khác với vùng vải xung quanh."
+    tinh_chat: "Dạng dải ngang liên tục, rất rộng (gần suốt chiều ngang vải) nhưng hẹp
+      theo chiều cao. Đây là lỗi dễ ảnh hưởng đến cảm nhận đồng đều của bề mặt."
+    muc_do: "Trung bình đến nặng nếu vệt dài, rõ hoặc nằm ở vùng dễ quan sát."
+    nguyen_nhan_thuong_gap:
+      - "Quá trình dệt không ổn định tại một đoạn sợi ngang, khiến mật độ hoặc màu
+        sợi thay đổi đột ngột."
+      - "Sức căng sợi ngang không đều trong quá trình dệt."
+    de_nham_voi:
+      - "Sọc màu: sọc màu thường chạy theo chiều dọc, không phải chiều ngang."
+      - "Xếp gãy: nếp gãy hẹp hơn và có cạnh sắc hơn."
+    huong_xu_ly: >
+      Nên đánh dấu vùng lỗi trên mẫu, giữ lại ảnh kiểm tra và chuyển cho bộ phận
+      kiểm soát chất lượng xác nhận trước khi phân loại hoặc giao hàng.
+
+  DINHDO:
+    ten_hien_thi: "Dính dơ"
+    mo_ta_ngan: >
+      Vải có một chấm hoặc vết dơ bất thường rất nhỏ, thường là vết bám cục bộ
+      khác màu so với nền vải, không loang rộng.
+    dau_hieu_anh:
+      - "Xuất hiện chấm nhỏ hoặc vết bám cục bộ, kích thước rất nhỏ."
+      - "Vết có màu hoặc độ sáng khác rõ so với vùng xung quanh."
+      - "Thường chỉ nằm ở một vị trí nhỏ trên bề mặt, không trải dài hay loang rộng."
+    tinh_chat: "Dạng đốm/chấm nhỏ cục bộ, kích thước nhỏ hơn nhiều so với các lỗi
+      dạng dải. Không có biến dạng bề mặt vải, chỉ khác màu hoặc độ sáng."
+    muc_do: "Nhẹ đến trung bình; cần chú ý nếu vết nằm ở vùng chính của sản phẩm."
+    nguyen_nhan_thuong_gap:
+      - "Bề mặt vải bị bám dơ, dầu hoặc tạp chất trong quá trình sản xuất."
+      - "Vải tiếp xúc với nguồn màu hoặc chất bẩn trong quá trình xử lý."
+    de_nham_voi:
+      - "Dính dơ 2: hình dạng tương tự, thường chỉ khác nhẹ về kích thước hoặc loại vết bám."
+    huong_xu_ly: >
+      Nên kiểm tra trực tiếp mẫu vải tại vùng được đánh dấu. Nếu vết còn rõ sau
+      khi vệ sinh nhẹ, nên phân loại là lỗi ngoại quan.
+
+  DINHDO_2:
+    ten_hien_thi: "Dính dơ 2"
+    mo_ta_ngan: >
+      Vải có vết dơ nhỏ tương tự lỗi dính dơ, hình thái gần giống nhưng vết có
+      thể hơi lớn hơn hoặc khác loại tạp chất so với Dính dơ thông thường.
+    dau_hieu_anh:
+      - "Có chấm hoặc vệt nhỏ nổi bật trên nền vải."
+      - "Vùng lỗi nhỏ, tập trung tại một điểm, có thể hơi lớn hơn Dính dơ."
+      - "Hình dạng và màu sắc gần giống lỗi Dính dơ thông thường."
+    tinh_chat: "Dạng vết bám nhỏ cục bộ, hơi lớn hơn Dính dơ nhưng vẫn rất nhỏ.
+      Cần đối chiếu bằng kiểm tra trực quan để phân biệt."
+    muc_do: "Nhẹ đến trung bình tùy độ rõ và vị trí của vết."
+    nguyen_nhan_thuong_gap:
+      - "Bám tạp chất, dầu hoặc màu loại khác trong quá trình sản xuất, xử lý
+        hoặc vận chuyển."
+    de_nham_voi:
+      - "Dính dơ: nhỏ hơn một chút; hai loại có hình thái rất gần nhau."
+    huong_xu_ly: >
+      Nên so sánh với tiêu chuẩn chấp nhận của khách hàng. Nếu vết nằm ở vùng dễ
+      thấy hoặc không thể làm sạch, nên tách mẫu để kiểm tra lại.
+
+  SOCMAU:
+    ten_hien_thi: "Sọc màu"
+    mo_ta_ngan: >
+      Vải xuất hiện một dải màu hoặc dải sáng/tối khác biệt so với nền, chạy dọc
+      theo chiều vải. Bề mặt vải phẳng, không nhăn hay gấp, chỉ khác màu hoặc
+      độ sáng.
+    dau_hieu_anh:
+      - "Có dải màu khác với vùng vải xung quanh, chạy theo chiều dọc (hướng
+        chạy của vải), không phải chiều ngang."
+      - "Dải thường hẹp nhưng kéo dài theo một hướng rõ ràng."
+      - "Bề mặt vải phẳng tại vùng lỗi, không có nếp gấp hay bóng đổ hai bên vệt."
+    tinh_chat: "Dạng dải hẹp chạy dọc theo chiều vải, chỉ khác màu hoặc độ sáng,
+      không kèm biến dạng bề mặt. Phân biệt với Sọc xếp ở chỗ không có bóng/nhăn."
+    muc_do: "Trung bình nếu sọc rõ; nặng nếu sọc dài hoặc nằm ở vùng chính của
+      sản phẩm."
+    nguyen_nhan_thuong_gap:
+      - "Màu vải không đều trong quá trình nhuộm hoặc xử lý hóa chất."
+      - "Sợi dọc có màu hoặc chất liệu khác lẫn vào trong quá trình dệt."
+    de_nham_voi:
+      - "Sọc xếp: kích thước dải tương tự nhưng Sọc xếp có bề mặt không
+        phẳng và thấy bóng sáng/tối hai bên vệt do nếp gấp nhẹ."
+      - "Chọn ngang: chạy theo chiều ngang, không phải chiều dọc."
+    huong_xu_ly: >
+      Nên kiểm tra dưới ánh sáng ổn định và so sánh với vùng vải bình thường.
+      Nếu sọc vẫn thấy rõ và bề mặt phẳng (không nhăn), nên ghi nhận là lỗi màu.
+
+  SOCXEP:
+    ten_hien_thi: "Sọc xếp"
+    mo_ta_ngan: >
+      Vải có vệt sọc chạy dọc theo chiều vải do bề mặt bị gấp nếp nhẹ, tạo cảm
+      giác có đường nhăn mảnh kèm bóng sáng/tối hai bên.
+    dau_hieu_anh:
+      - "Có dải hẹp chạy dọc theo chiều vải (tương tự Sọc màu về hình dạng),
+        nhưng hai bên vệt có bóng sáng/tối do bề mặt không phẳng."
+      - "Dải lỗi kéo dài theo chiều dọc, hẹp và có cảm giác như một nếp nhẹ."
+      - "Bề mặt vải tại vùng lỗi có biến dạng nhẹ (gấp nếp), khác với Sọc màu
+        là bề mặt phẳng."
+    tinh_chat: "Dạng sọc dọc kèm biến dạng bề mặt nhẹ (nếp gấp nhỏ). Kích thước
+      dải gần giống Sọc màu nhưng có bóng sáng/tối tại viền nếp."
+    muc_do: "Nhẹ đến trung bình; nặng hơn nếu đường xếp rõ và khó làm phẳng."
+    nguyen_nhan_thuong_gap:
+      - "Vải bị gấp nếp nhẹ dọc theo chiều chạy vải do căng không đều khi cuộn."
+      - "Biên vải không phẳng trong quá trình dệt hoặc hoàn tất."
+    de_nham_voi:
+      - "Sọc màu: hình dạng dải gần giống, nhưng Sọc màu bề mặt phẳng,
+        không có bóng sáng/tối hai bên."
+      - "Xếp gãy: nếp sắc và cứng hơn, dải hẹp hơn nhiều."
+    huong_xu_ly: >
+      Nên kiểm tra bằng mắt thường và thử làm phẳng nhẹ vùng vải. Nếu vệt vẫn
+      còn rõ, nên chuyển bộ phận chất lượng đánh giá mức chấp nhận.
+
+  XEPGAY:
+    ten_hien_thi: "Xếp gãy"
+    mo_ta_ngan: >
+      Vải xuất hiện nếp gãy sắc và cứng, tạo thành đường nếp mảnh chạy dọc
+      theo chiều vải. Nếp cứng hơn và sắc hơn so với các loại nhăn thông thường.
+    dau_hieu_anh:
+      - "Có đường nếp mảnh chạy dọc theo chiều vải, rất hẹp nhưng khá dài."
+      - "Vùng nếp tạo bóng sáng/tối hai bên rõ hơn Sọc xếp; đường nếp trông
+        cứng và sắc."
+      - "Đường lỗi nhìn như một vết gấp cứng, không mềm như nếp nhăn thông thường."
+    tinh_chat: "Dạng nếp gấp sắc, hẹp và dài theo chiều dọc; cạnh nếp rõ hơn và
+      cứng hơn Sọc xếp."
+    muc_do: "Trung bình đến nặng, đặc biệt nếu nếp gãy còn rõ sau khi làm phẳng."
+    nguyen_nhan_thuong_gap:
+      - "Vải bị gấp mạnh qua con lăn hoặc trục ép tạo nếp không đàn hồi."
+      - "Bảo quản hoặc vận chuyển không đúng cách gây nếp gãy cố định."
+    de_nham_voi:
+      - "Sọc xếp: nếp mềm hơn và ít sắc hơn."
+      - "Xếp ly 1: nếp mềm hơn, thường nhẹ hơn Xếp gãy."
+    huong_xu_ly: >
+      Nên tách mẫu có nếp gãy rõ để kiểm tra lại. Nếu nếp không giảm sau thao
+      tác làm phẳng thông thường, nên ghi nhận là lỗi cần xử lý trước khi giao hàng.
+
+  XEPLYCUONCAY:
+    ten_hien_thi: "Xếp ly cuốn cây"
+    mo_ta_ngan: >
+      Vải có nếp cong nhỏ cục bộ do bị cuốn vào trục (cây), tạo vùng nhăn nhỏ
+      tập trung tại một điểm. Đây là loại lỗi xuất hiện nhiều nhất trong dữ liệu.
+    dau_hieu_anh:
+      - "Có nếp cong nhỏ, tập trung tại một vùng cục bộ nhỏ."
+      - "Nếp có dạng cong, không thẳng như Xếp gãy; nhìn như vùng vải bị cuộn
+        nhẹ hoặc co lại tại một điểm."
+      - "Vùng lỗi thường nhỏ hơn Xếp ly to vỡ nếp."
+    tinh_chat: "Dạng nếp cong nhỏ cục bộ, nếp cong, không thẳng. Thường thấy khi soi
+      nghiêng ánh sáng, ẩn khi chiếu sáng thẳng."
+    muc_do: "Nhẹ đến trung bình; cần chú ý nếu xuất hiện nhiều vị trí."
+    nguyen_nhan_thuong_gap:
+      - "Vải bị cuốn vào trục dệt hoặc trục cuộn không đều, tạo nếp cong cục bộ."
+      - "Căng biên không đồng đều trong quá trình dệt."
+    de_nham_voi:
+      - "Xếp ly to vỡ nếp: dài và rõ hơn, nếp thường thẳng hơn."
+      - "Xếp ly 1: hẹp hơn và nếp thường thẳng hơn."
+    huong_xu_ly: >
+      Nên kiểm tra vùng được đánh dấu trên mẫu thật bằng ánh sáng nghiêng. Nếu
+      nếp ảnh hưởng đến ngoại quan hoặc không thể làm phẳng, nên phân loại để
+      xử lý riêng.
+
+  XEPLYTOVN:
+    ten_hien_thi: "Xếp ly to vỡ nếp"
+    mo_ta_ngan: >
+      Vải xuất hiện nếp gấp dài theo chiều dọc, bề mặt biến dạng rõ hơn Xếp ly 1.
+      Đây là loại xếp ly có chiều dài lớn nhất trong nhóm nếp dọc.
+    dau_hieu_anh:
+      - "Có nếp gấp dọc, hẹp nhưng dài hơn Xếp ly 1."
+      - "Nếp gấp tạo bóng rõ dọc theo chiều vải; bề mặt biến dạng nhiều hơn Xếp
+        ly 1."
+      - "Nhìn như một đường nhăn dài chạy dọc, rõ khi quan sát dưới ánh sáng nghiêng."
+    tinh_chat: "Dạng nếp gấp dài theo chiều dọc, thường rộng hơn và dài hơn Xếp ly 1."
+    muc_do: "Trung bình đến nặng nếu nếp dài, rõ hoặc khó phục hồi."
+    nguyen_nhan_thuong_gap:
+      - "Vải gấp nếp lớn do căng không đều khi cuộn với tốc độ cao."
+      - "Nếp hình thành trong quá trình cán/ép và không được san phẳng hoàn toàn."
+    de_nham_voi:
+      - "Xếp ly 1: ngắn hơn và hẹp hơn rõ rệt."
+      - "Xếp ly cuốn cây: ngắn hơn và thường có nếp cong thay vì thẳng."
+      - "Sọc xếp: giống dạng sọc nhẹ hơn, không phải nếp xếp lớn."
+    huong_xu_ly: >
+      Nên kiểm tra trực tiếp vùng lỗi, thử làm phẳng nhẹ và đánh giá lại. Nếu nếp
+      vẫn rõ, nên tách cuộn hoặc đoạn vải để xử lý theo tiêu chuẩn chất lượng.
+
+  XEPLY_1:
+    ten_hien_thi: "Xếp ly 1"
+    mo_ta_ngan: >
+      Vải có nếp gấp nhỏ chạy dọc theo chiều vải, rất hẹp và ít biến dạng bề mặt.
+      Là loại xếp ly hẹp nhất, khó thấy khi quan sát thẳng.
+    dau_hieu_anh:
+      - "Có một nếp hẹp chạy dọc, rất mảnh và dài vừa phải."
+      - "Nếp gấp nhẹ, ít biến dạng bề mặt; thường cần quan sát dưới ánh sáng
+        nghiêng mới thấy rõ."
+      - "Trông mảnh hơn Xếp ly to vỡ nếp và hẹp hơn Sọc xếp rõ rệt."
+    tinh_chat: "Dạng nếp gấp nhỏ và rất hẹp trong nhóm xếp ly dọc. Mức độ biến dạng
+      bề mặt nhẹ, dễ bỏ sót khi không soi nghiêng."
+    muc_do: "Nhẹ đến trung bình tùy độ rõ của nếp và vị trí trên sản phẩm."
+    nguyen_nhan_thuong_gap:
+      - "Vải bị nhăn nhẹ do căng không đều trong quá trình cuộn hoặc dệt."
+      - "Vải đi qua thiết bị dẫn hướng không ổn định tạo nếp cục bộ nhỏ."
+    de_nham_voi:
+      - "Xếp ly to vỡ nếp: lớn hơn, dài hơn và rõ hơn."
+      - "Xếp gãy: cạnh nếp sắc và cứng hơn."
+      - "Xếp ly cuốn cây: nếp cong hơn, không thẳng như Xếp ly 1."
+    huong_xu_ly: >
+      Nên kiểm tra lại dưới ánh sáng nghiêng. Nếu nếp nhẹ và có thể làm phẳng,
+      có thể xử lý theo quy trình hoàn thiện; nếu còn rõ, nên ghi nhận lỗi ngoại quan.

@@ -1,0 +1,9 @@
+{
+  "target_class": "XEPLY_1",
+  "target_class_confidence": 0.5066938942128961,
+  "matched_ground_truth_iou": 0.6545663594451283,
+  "occlusion_heat_inside_ground_truth_ratio": 0.12258598762638749,
+  "gradcam_heat_inside_ground_truth_ratio": 0.16394519536639135,
+  "predictions": 2,
+  "ground_truth_objects": 3
+}
